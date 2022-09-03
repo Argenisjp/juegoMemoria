@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body{
+    background: rgb(72,146,200);
+    background: linear-gradient(90deg, rgba(72,146,200,1) 16%, rgba(0,74,255,0.5303941400779062) 82%, rgba(0,147,255,1) 95%);
+    font-family: sans-serif;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+main{
+    
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.section1{
+    background: rgba(255,255,255,0.2);
+    padding: 0px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.section1 h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+.section1 button{
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    color: rgb(61, 62, 73);
+    border: none;
+    font-family: 'Lobster', cursive;
+    transition: 500ms;
+   
+}
+
+.section1 button:hover{
+    cursor: pointer;
+    background: rgb(110,218,197);
+    background: radial-gradient(circle, rgba(110,218,197,1) 0%, rgba(148,187,233,1) 100%);
+    transition: 500ms;
+}
+
+.section2{
+    background: rgba(255,255,255,0.2);
+    padding: 0px 10px 10px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 250px;
+    height: 400px;
+}
+
+.section2 .estadisticas{
+    height: 105px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+footer p{
+    margin-top: 80%;
+    text-align: center;
+}
+
+footer p a{
+    text-decoration: none;
+}
