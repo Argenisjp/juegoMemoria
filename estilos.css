@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Dancing+Script:wght@500&family=Lobster&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/* font-family: 'Annie Use Your Telescope', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Source Sans Pro', sans-serif; */
+
 
 body{
     background: rgb(72,146,200);
@@ -27,7 +33,7 @@ main{
 
 .section1 h1 {
     text-align: center;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Annie Use Your Telescope', cursive;
     font-size: 50px;
 }
 
@@ -54,7 +60,7 @@ main{
     padding: 0px 10px 10px 10px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    width: 250px;
+    width: 380px;
     height: 400px;
 }
 
@@ -64,12 +70,12 @@ main{
     border: 1px solid #fff;
     padding: 8px 20px;
     box-sizing: border-box;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Annie Use Your Telescope', cursive;
     font-size: 30px;
 }
 
 footer p{
-    margin-top: 80%;
+    margin-top: 60px;
     text-align: center;
 }
 
